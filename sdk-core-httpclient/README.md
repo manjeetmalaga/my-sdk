@@ -41,7 +41,7 @@ const sdkHttpClient = require('sdk-core-httpclient');
 
 async addContact(postObj) {
         try {
-            const API_PATH = "/servicemanagement/v1/sjcontact";
+            const API_PATH = "/<category>/<version>/<operation>";
             const content = {
                 body: {},
                 headers: {
